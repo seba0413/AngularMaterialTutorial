@@ -1,0 +1,18 @@
+
+<router-outlet></router-outlet>
+
+<div style="margin-bottom: 5rem;"></div>
+
+<mat-nav-list>
+    <a *ngFor="let link of links"  mat-list-item href="{{link.path}}"> {{link.nombre}}</a>
+</mat-nav-list>
+
+
+<!-- GENERAR UNA NAVEGACION AUTOMATICA: ng g @angular/material:material-nav --name=main-nav -->
+
+
+
+
+
+
+
