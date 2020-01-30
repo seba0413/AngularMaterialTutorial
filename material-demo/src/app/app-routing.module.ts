@@ -17,6 +17,7 @@ import { ToggleComponent } from './components/toggle/toggle.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { BadgesComponent } from './components/badges/badges.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 
 const routes: Routes = [
@@ -36,7 +37,8 @@ const routes: Routes = [
   {path:'toggle', component: ToggleComponent},
   {path:'icon', component: IconsComponent},
   {path:'badge', component: BadgesComponent},
-  {path:'spinner', component: SpinnerComponent}
+  {path:'spinner', component: SpinnerComponent},
+  {path:'autocomplete', component: AutocompleteComponent}
 
 ];
 

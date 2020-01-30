@@ -10,6 +10,10 @@ export class AppComponent implements OnInit{
 
 links = [
           { 
+            nombre: "Autocomplete",
+            path:"/autocomplete"
+          },
+          { 
             nombre: "Badges",
             path:"/badge"
           },
@@ -76,9 +80,9 @@ links = [
           { 
             nombre: "Typography",
             path:"/typography"
-          },
+          },         
 
-]
+        ]
 
 
 ngOnInit(){

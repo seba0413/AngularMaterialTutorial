@@ -22,6 +22,7 @@ import { ToggleComponent } from './components/toggle/toggle.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { BadgesComponent } from './components/badges/badges.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     ToggleComponent,
     IconsComponent,
     BadgesComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
